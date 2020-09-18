@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = function(){
+const Header = function(props){
   const headerStyle = {
     textAlign: 'center',
     padding: 20,
@@ -11,7 +11,7 @@ const Header = function(){
     return(
       
         <div style= {headerStyle}>
-          Phone Directory
+          {props.heading}
         </div>
     )
 }

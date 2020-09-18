@@ -18,8 +18,8 @@ class App extends Component {
       }
     ];
     return (
-      <div>
-        <Header />
+      <div className="component-container">
+        <Header heading= "Phone Directory" />
             <span className="grid-item name-heading">Name</span>
             <span className="grid-item phone-heading">Phone</span>
           </div>
